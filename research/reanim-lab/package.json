@@ -1,0 +1,14 @@
+{
+  "name": "wise-tree-phase0-reanim-lab",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5178 --strictPort",
+    "build": "tsc --noEmit && vite build",
+    "test": "node --experimental-strip-types --test src/core.test.ts",
+    "test:browser": "node browser-check.mjs"
+  },
+  "dependencies": {"pixi.js": "8.22.0"},
+  "devDependencies": {"typescript": "7.0.2", "vite": "8.3.4", "@types/node": "24.19.2", "playwright": "1.64.1"}
+}

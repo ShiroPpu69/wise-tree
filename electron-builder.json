@@ -1,0 +1,64 @@
+{
+  "appId": "local.wisdomtree.app",
+  "productName": "智慧树",
+  "directories": {
+    "output": "private/releases"
+  },
+  "files": [
+    "dist/web/**/*",
+    "apps/desktop/*.cjs",
+    "apps/desktop/*.ps1",
+    "package.json",
+    "!node_modules{,/**/*}",
+    "THIRD_PARTY_NOTICES.txt",
+    "!apps/desktop/neural-voice.cjs",
+    "!apps/desktop/voice-references.cjs"
+  ],
+  "extraMetadata": {
+    "main": "apps/desktop/main.cjs",
+    "bundledAssets": true
+  },
+  "asar": true,
+  "extraResources": [
+    {
+      "from": "resources/goty/main.pak",
+      "to": "goty/main.pak"
+    },
+    {
+      "from": "resources/goty/zh.json",
+      "to": "goty/zh.json"
+    },
+    {
+      "from": "resources/branding/tree.ico",
+      "to": "branding/tree.ico"
+    },
+    {
+      "from": "resources/branding/tree.png",
+      "to": "branding/tree.png"
+    }
+  ],
+  "win": {
+    "target": [
+      {
+        "target": "nsis",
+        "arch": [
+          "x64"
+        ]
+      }
+    ],
+    "signAndEditExecutable": true,
+    "signExecutable": false,
+    "icon": "resources/branding/tree.ico"
+  },
+  "nsis": {
+    "oneClick": false,
+    "perMachine": false,
+    "allowToChangeInstallationDirectory": true,
+    "createDesktopShortcut": true,
+    "installerIcon": "resources/branding/tree.ico",
+    "uninstallerIcon": "resources/branding/tree.ico",
+    "installerHeaderIcon": "resources/branding/tree.ico",
+    "shortcutName": "智慧树"
+  },
+  "artifactName": "智慧树 安装程序 ${version}.exe"
+}

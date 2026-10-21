@@ -1,0 +1,4 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import {graphemes,wrapMeasured,paginate} from '../packages/font-core/index.ts';
+test('typewriter preserves emoji clusters and combining accents',()=>{assert.equal(graphemes('👨‍👩‍👧‍👦e\u0301').length,2);});
+test('pagination uses measured width and line height, never a character quota',()=>{const measure=(s:string)=>graphemes(s).reduce((n,g)=>n+(g==='W'?20:g==='i'?2:g===' '?3:10),0);const wide=wrapMeasured('WWW iiiiiiiiiiiiii',45,measure);assert.deepEqual(wide,['WW','W','iiiiiiiiiiiiii']);assert.equal(paginate(wide,46,23).length,2);});
+test('Chinese punctuation stays with preceding glyph when a line is full',()=>{const lines=wrapMeasured('一二三四，五六。',40,s=>graphemes(s).length*10);assert.equal(lines.some(line=>/^[，。]/.test(line)),false);for(const line of lines)assert.ok(line.length<=4);});

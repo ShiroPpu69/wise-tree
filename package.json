@@ -1,0 +1,42 @@
+{
+  "name": "tree-of-wisdom",
+  "version": "0.1.14",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5180 --strictPort",
+    "dev:harness": "vite --config apps/dev-harness/vite.config.ts",
+    "build": "node tools/prepare_online_voice.mjs && node tools/generate_notices.mjs && tsc --noEmit && vite build",
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "desktop": "electron apps/desktop/main.cjs",
+    "dist:win": "npm run build && electron-builder --win nsis --config electron-builder.json",
+    "build:personal": "node tools/prepare_online_voice.mjs && node tools/generate_notices.mjs && tsc --noEmit && vite build --mode personal",
+    "dist:personal": "npm run build:personal && node tools/prepare_personal_release.mjs && electron-builder --win nsis --config private/personal-builder.json"
+  },
+  "dependencies": {
+    "pixi.js": "8.22.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@huggingface/transformers": "^4.3.1",
+    "@types/node": "24.19.2",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "electron": "44.9.1",
+    "electron-builder": "26.15.3",
+    "onnxruntime-node": "^1.30.0",
+    "playwright": "1.64.1",
+    "typescript": "7.0.2",
+    "vite": "8.3.4"
+  },
+  "description": "Tree of Wisdom — 智慧树",
+  "productName": "智慧树",
+  "license": "MIT",
+  "author": "ShiroPpu69",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShiroPpu69/wise-tree.git"
+  },
+  "homepage": "https://github.com/ShiroPpu69/wise-tree#readme"
+}

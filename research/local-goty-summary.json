@@ -1,0 +1,189 @@
+{
+  "date": "2026-10-20",
+  "installation": {
+    "version": "1.2.0.1096",
+    "steamAppId": 3590,
+    "steamBuildId": "11226",
+    "language": "english",
+    "readmeBuildDate": "2010-12-15"
+  },
+  "mainPak": {
+    "bytes": 45453180,
+    "entryCount": 3198,
+    "sha256": "5878326408285cb01f83b4fa4edcc66d65e727f6d6ee88563b5b3b287dd259fc",
+    "allExtractedHashesMatch": true
+  },
+  "executable": {
+    "sha256": "868f8e2bab0d6a7ef8afc4c5960c608eccef82bd086bd6e0c0e2670199a5ca45",
+    "embeddedPeFileOffset": "0x1a71a2",
+    "modified": false
+  },
+  "staticFindings": {
+    "initFunctionVA": "0x430c50",
+    "initSegmentMax": 50,
+    "growFunctionVA": "0x430f60",
+    "growSegmentMax": 51,
+    "fertilizeFunctionVA": "0x4310f0",
+    "giveWisdomFunctionVA": "0x4312c0",
+    "foodStockCheckVA": "0x499577",
+    "foodSoldOutAt": 10,
+    "foodInternalCost": 250,
+    "moneyFormatFunctionVA": "0x45b6f0",
+    "moneyDisplayMultiplier": 10,
+    "evidence": "Local executable string references and manually inspected control flow, not runtime execution"
+  },
+  "animationCounts": {
+    "TreeOfWisdom": {
+      "fps": 12.0,
+      "tracks": 109,
+      "frames": 354
+    },
+    "TreeOfWisdomClouds": {
+      "fps": 12.0,
+      "tracks": 6,
+      "frames": 625
+    },
+    "TreeFood": {
+      "fps": 20.0,
+      "tracks": 2,
+      "frames": 31
+    }
+  },
+  "xmlCompiledComparisons": {
+    "TreeOfWisdom": {
+      "xml_path": "treeofWisdom.reanim",
+      "scalar_and_string_comparisons": 424446,
+      "errors": [],
+      "error_count": 0,
+      "matches": true
+    },
+    "TreeOfWisdomClouds": {
+      "xml_path": "TreeOfWisdomClouds.reanim",
+      "scalar_and_string_comparisons": 41250,
+      "errors": [],
+      "error_count": 0,
+      "matches": true
+    },
+    "TreeFood": {
+      "xml_path": "TreeFood.reanim",
+      "scalar_and_string_comparisons": 682,
+      "errors": [],
+      "error_count": 0,
+      "matches": true
+    }
+  },
+  "resolvedImageReferences": 41,
+  "originalTreeStringKeys": 81,
+  "fonts": {
+    "BrianneTod16": {
+      "listedGlyphs": 160,
+      "maxListedByteCode": 255,
+      "containsCJK": false,
+      "layerCount": 1,
+      "spaceWidthStatements": [
+        "LayerSetCharWidths        Main (' ') (5)"
+      ]
+    },
+    "HouseofTerror16": {
+      "listedGlyphs": 160,
+      "maxListedByteCode": 255,
+      "containsCJK": false,
+      "layerCount": 2,
+      "spaceWidthStatements": [
+        "LayerSetCharWidths        Outline (' ') (5)",
+        "LayerSetCharWidths        Main (' ') (5)"
+      ]
+    }
+  },
+  "audioHeaderMeasurements": [
+    {
+      "path": "fertilizer.ogg",
+      "codec": "Vorbis",
+      "channels": 1,
+      "sampleRate": 44100,
+      "lastGranule": 48020,
+      "durationFromGranuleSeconds": 1.0888888888888888
+    },
+    {
+      "path": "plantgrow.ogg",
+      "codec": "Vorbis",
+      "channels": 1,
+      "sampleRate": 44100,
+      "lastGranule": 50242,
+      "durationFromGranuleSeconds": 1.1392743764172335
+    }
+  ],
+  "referenceConversion": {
+    "referenceCommit": "ba9df9a5aaef7449dd7507d0d7d3993615fec239",
+    "results": [
+      {
+        "animation": "TreeOfWisdom",
+        "scope": "Conversion + upstream numerical self-verifier; NOT engine/runtime/visual acceptance",
+        "converted": true,
+        "verifierErrors": [],
+        "errorCount": 0,
+        "outputSha256": "b22216b091d82aace4178283ff8362fde6c5e73a1632f33c757eced83c518b2b"
+      },
+      {
+        "animation": "TreeOfWisdomClouds",
+        "scope": "Conversion + upstream numerical self-verifier; NOT engine/runtime/visual acceptance",
+        "converted": true,
+        "verifierErrors": [],
+        "errorCount": 0,
+        "outputSha256": "cfb0eceb18d3a91dfeb9def378728549c327fab666754f56d6c066306e555a37"
+      },
+      {
+        "animation": "TreeFood",
+        "scope": "Conversion + upstream numerical self-verifier; NOT engine/runtime/visual acceptance",
+        "converted": true,
+        "verifierErrors": [],
+        "errorCount": 0,
+        "outputSha256": "276e9aba8d04c1f5fafb071be9c7dd307192b4e90b24483860ac4e31116568e0"
+      }
+    ]
+  },
+  "referenceFontParser": {
+    "scope": "Parser only; no ffmpeg executed",
+    "results": [
+      {
+        "font": "BrianneTod16",
+        "parsed": true,
+        "characters": 160,
+        "replacementCodepoints": 68,
+        "uniqueCharacters": 93,
+        "duplicateCharacters": {
+          "'\ufffd'": 68
+        }
+      },
+      {
+        "font": "HouseofTerror16",
+        "parsed": true,
+        "characters": 160,
+        "replacementCodepoints": 68,
+        "uniqueCharacters": 93,
+        "duplicateCharacters": {
+          "'\ufffd'": 68
+        }
+      }
+    ]
+  },
+  "offlineResearchRenders": 34,
+  "tests": {
+    "syntheticTestsPassed": 14,
+    "syntheticTestsFailed": 0,
+    "all3198ExtractedHashesRechecked": true
+  },
+  "gates": {
+    "originalRuntimeComparison": "not run",
+    "pixelCoordinateAcceptance": "not run",
+    "soundSyncAcceptance": "not run",
+    "PixiOrGodotEnginePlayback": "not run",
+    "Phase1": "entry criteria not yet satisfied"
+  },
+  "privateArtifacts": [
+    "private/reports/resource-audit.json",
+    "private/reports/goty-resource-analysis/analysis.json",
+    "private/reports/goty-resource-analysis/original-tree-dialogue.json",
+    "private/reports/exe-static/pe-summary.json"
+  ]
+}

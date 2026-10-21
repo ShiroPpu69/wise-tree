@@ -1,0 +1,51 @@
+# User-owned game files and derived media must stay local.
+/private/
+/research/sources/
+/research/output/
+*.pak
+*.exe
+*.dll
+*.reanim
+*.compiled
+*.mo3
+*.ogg
+*.wav
+*.au
+*.png
+*.jpg
+*.gif
+*.zip
+.env
+.env.*
+!.env.example
+*api-key*
+node_modules/
+dist/
+__pycache__/
+*.pyc
+# Generated clients are rebuilt from the reviewed sources.
+/apps/desktop/online-voice.cjs
+# Only curated in-app screenshots and demo GIFs may be published.
+!/docs/media/*.png
+!/docs/media/*.gif
+!/docs/media/*.webp
+*.mp4
+*.webm
+*.ico
+*.pdb
+*.onnx
+*.safetensors
+*.gguf
+*.bin
+*.log
+*.tmp
+*.bak
+*.db
+*.sqlite*
+provider-vault.json
+# Explicit publishing scope requested by the repository owner.
+!/resources/goty/main.pak
+!/resources/branding/tree.png
+!/resources/branding/tree.ico
+.DS_Store
+Thumbs.db

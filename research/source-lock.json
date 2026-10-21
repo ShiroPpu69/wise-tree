@@ -1,0 +1,517 @@
+{
+  "date": "2026-10-20",
+  "timezone": "Asia/Hong_Kong",
+  "scope": "Public source snapshots only; no game assets. License claims do not authorize third-party game content.",
+  "repositories": [
+    {
+      "repository": "PopGameTool/PopStudio",
+      "commit": "a8bd1edd3e1dc4ec79e3b37ee29774e268438d85",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "reviewOnly": true,
+      "files": [
+        {
+          "path": "LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "url": "https://raw.githubusercontent.com/PopGameTool/PopStudio/a8bd1edd3e1dc4ec79e3b37ee29774e268438d85/LICENSE"
+        },
+        {
+          "path": "PopStudio.Avalonia/Pages/Control_Reanim.axaml.cs",
+          "sha256": "0de75ac16d1419d3236be70806841a6e8c372bc79b8aeff2506143ad5fea7986",
+          "url": "https://raw.githubusercontent.com/PopGameTool/PopStudio/a8bd1edd3e1dc4ec79e3b37ee29774e268438d85/PopStudio.Avalonia/Pages/Control_Reanim.axaml.cs"
+        },
+        {
+          "path": "PopStudio.MAUI/Pages/Page_Reanim.xaml.cs",
+          "sha256": "3abd7b2a37fe65ace5249818e51662e906c3b7f4406fe70ad9ab64c485e468ce",
+          "url": "https://raw.githubusercontent.com/PopGameTool/PopStudio/a8bd1edd3e1dc4ec79e3b37ee29774e268438d85/PopStudio.MAUI/Pages/Page_Reanim.xaml.cs"
+        },
+        {
+          "path": "PopStudio.Shared/BombLib/Reanim/Godot.cs",
+          "sha256": "4ccf933770ba156f7d1398274cb24717e02f933fa7a1fb77a2d38996891f7094",
+          "url": "https://raw.githubusercontent.com/PopGameTool/PopStudio/a8bd1edd3e1dc4ec79e3b37ee29774e268438d85/PopStudio.Shared/BombLib/Reanim/Godot.cs"
+        },
+        {
+          "path": "PopStudio.Shared/YFTYLib/Package/Pak/CompressFlags.cs",
+          "sha256": "da2ce8c332f16b6e2534c4cba4fca08e6665f7dcdabc5ae79b513f66eb32807a",
+          "url": "https://raw.githubusercontent.com/PopGameTool/PopStudio/a8bd1edd3e1dc4ec79e3b37ee29774e268438d85/PopStudio.Shared/YFTYLib/Package/Pak/CompressFlags.cs"
+        },
+        {
+          "path": "PopStudio.Shared/YFTYLib/Package/Pak/FileInfo.cs",
+          "sha256": "8e83a12927c245fc594fb03669cda390aa440c5ee1c8699163254df5725c7291",
+          "url": "https://raw.githubusercontent.com/PopGameTool/PopStudio/a8bd1edd3e1dc4ec79e3b37ee29774e268438d85/PopStudio.Shared/YFTYLib/Package/Pak/FileInfo.cs"
+        },
+        {
+          "path": "PopStudio.Shared/YFTYLib/Package/Pak/Pak.cs",
+          "sha256": "f710e68bc60f582a541d8b9bb6ca01e35c59c39cbffb81237af2f1b343cafb1e",
+          "url": "https://raw.githubusercontent.com/PopGameTool/PopStudio/a8bd1edd3e1dc4ec79e3b37ee29774e268438d85/PopStudio.Shared/YFTYLib/Package/Pak/Pak.cs"
+        },
+        {
+          "path": "PopStudio.Shared/YFTYLib/Package/Pak/PakInfo.cs",
+          "sha256": "c14bb49e7389a567f64f50241cec4a112507cc520fed828dc8bab8932e732095",
+          "url": "https://raw.githubusercontent.com/PopGameTool/PopStudio/a8bd1edd3e1dc4ec79e3b37ee29774e268438d85/PopStudio.Shared/YFTYLib/Package/Pak/PakInfo.cs"
+        },
+        {
+          "path": "PopStudio.Shared/YFTYLib/Reanim/FlashFla.cs",
+          "sha256": "246289035561da095d158aed27df3ff4e9c62a076b90bc3ce0b1eee137cb9dc0",
+          "url": "https://raw.githubusercontent.com/PopGameTool/PopStudio/a8bd1edd3e1dc4ec79e3b37ee29774e268438d85/PopStudio.Shared/YFTYLib/Reanim/FlashFla.cs"
+        },
+        {
+          "path": "PopStudio.Shared/YFTYLib/Reanim/FlashTweenPredictor.cs",
+          "sha256": "4711661b368617f3acd18572ff72ab9e67f4acf539ec5c887e018873b0020db4",
+          "url": "https://raw.githubusercontent.com/PopGameTool/PopStudio/a8bd1edd3e1dc4ec79e3b37ee29774e268438d85/PopStudio.Shared/YFTYLib/Reanim/FlashTweenPredictor.cs"
+        },
+        {
+          "path": "PopStudio.Shared/YFTYLib/Reanim/FlashXfl.cs",
+          "sha256": "5d4deb6ff6f89e0a63854132e1fbe0e45c5b2dc779cf3b566cc64c07711d13f7",
+          "url": "https://raw.githubusercontent.com/PopGameTool/PopStudio/a8bd1edd3e1dc4ec79e3b37ee29774e268438d85/PopStudio.Shared/YFTYLib/Reanim/FlashXfl.cs"
+        },
+        {
+          "path": "PopStudio.Shared/YFTYLib/Reanim/FlashXflDecoder.cs",
+          "sha256": "efd25baa4d7ef92f7eef7753a3abbf28751d0cd6a420e71d7d0874e31b98faeb",
+          "url": "https://raw.githubusercontent.com/PopGameTool/PopStudio/a8bd1edd3e1dc4ec79e3b37ee29774e268438d85/PopStudio.Shared/YFTYLib/Reanim/FlashXflDecoder.cs"
+        },
+        {
+          "path": "PopStudio.Shared/YFTYLib/Reanim/GameConsole.cs",
+          "sha256": "27bea513d8d51f757f18942e8741df238272801e58b8df50a2b5a77ff95637fd",
+          "url": "https://raw.githubusercontent.com/PopGameTool/PopStudio/a8bd1edd3e1dc4ec79e3b37ee29774e268438d85/PopStudio.Shared/YFTYLib/Reanim/GameConsole.cs"
+        },
+        {
+          "path": "PopStudio.Shared/YFTYLib/Reanim/PC.cs",
+          "sha256": "917d26a13f9da4157744df8ebeb4accca1ab66c722b0e14a5d88423810a24c8c",
+          "url": "https://raw.githubusercontent.com/PopGameTool/PopStudio/a8bd1edd3e1dc4ec79e3b37ee29774e268438d85/PopStudio.Shared/YFTYLib/Reanim/PC.cs"
+        },
+        {
+          "path": "PopStudio.Shared/YFTYLib/Reanim/Phone32.cs",
+          "sha256": "5ae31fbb343d48b1df3a2097259f0a9946e454e8e1db438c926d65df2ef65148",
+          "url": "https://raw.githubusercontent.com/PopGameTool/PopStudio/a8bd1edd3e1dc4ec79e3b37ee29774e268438d85/PopStudio.Shared/YFTYLib/Reanim/Phone32.cs"
+        },
+        {
+          "path": "PopStudio.Shared/YFTYLib/Reanim/Phone64.cs",
+          "sha256": "9a802846168b0982987509acb8040ea5b30d5ff66bba1ed603bbea47b50292e5",
+          "url": "https://raw.githubusercontent.com/PopGameTool/PopStudio/a8bd1edd3e1dc4ec79e3b37ee29774e268438d85/PopStudio.Shared/YFTYLib/Reanim/Phone64.cs"
+        },
+        {
+          "path": "PopStudio.Shared/YFTYLib/Reanim/RawXml.cs",
+          "sha256": "336035460f5bbe1071248b46211128f04be40ffcd34d1219b336f90750dc7c32",
+          "url": "https://raw.githubusercontent.com/PopGameTool/PopStudio/a8bd1edd3e1dc4ec79e3b37ee29774e268438d85/PopStudio.Shared/YFTYLib/Reanim/RawXml.cs"
+        },
+        {
+          "path": "PopStudio.Shared/YFTYLib/Reanim/Reanim.cs",
+          "sha256": "488cc85ba4883ca359bd62dd47aaba6f91883d11f91423b60b549fdde2190ce3",
+          "url": "https://raw.githubusercontent.com/PopGameTool/PopStudio/a8bd1edd3e1dc4ec79e3b37ee29774e268438d85/PopStudio.Shared/YFTYLib/Reanim/Reanim.cs"
+        },
+        {
+          "path": "PopStudio.Shared/YFTYLib/Reanim/ReanimFormat.cs",
+          "sha256": "dbb46e278525865caa42f8e1b5f37ac2d4616dfbeba2a4356f3b6a3d612cf0c6",
+          "url": "https://raw.githubusercontent.com/PopGameTool/PopStudio/a8bd1edd3e1dc4ec79e3b37ee29774e268438d85/PopStudio.Shared/YFTYLib/Reanim/ReanimFormat.cs"
+        },
+        {
+          "path": "PopStudio.Shared/YFTYLib/Reanim/ReanimJson.cs",
+          "sha256": "f7c4f01c171d41e125dc34159f392e7056b15e250af0215afccf8c1508e659b9",
+          "url": "https://raw.githubusercontent.com/PopGameTool/PopStudio/a8bd1edd3e1dc4ec79e3b37ee29774e268438d85/PopStudio.Shared/YFTYLib/Reanim/ReanimJson.cs"
+        },
+        {
+          "path": "PopStudio.Shared/YFTYLib/Reanim/ReanimTrack.cs",
+          "sha256": "0ed86581d5b50073bf13b5e705d986c842c2637549c9ccf4637eee43b8605934",
+          "url": "https://raw.githubusercontent.com/PopGameTool/PopStudio/a8bd1edd3e1dc4ec79e3b37ee29774e268438d85/PopStudio.Shared/YFTYLib/Reanim/ReanimTrack.cs"
+        },
+        {
+          "path": "PopStudio.Shared/YFTYLib/Reanim/ReanimTransform.cs",
+          "sha256": "4d6aee613d7d95242bcbf369864611724ccf1f2fa20a8f15194072f219f2da04",
+          "url": "https://raw.githubusercontent.com/PopGameTool/PopStudio/a8bd1edd3e1dc4ec79e3b37ee29774e268438d85/PopStudio.Shared/YFTYLib/Reanim/ReanimTransform.cs"
+        },
+        {
+          "path": "PopStudio.Shared/YFTYLib/Reanim/TV.cs",
+          "sha256": "ff217c75124dad8477a6d2f7b750ee52f18a6fcafb7d01222efc73f945ab3c73",
+          "url": "https://raw.githubusercontent.com/PopGameTool/PopStudio/a8bd1edd3e1dc4ec79e3b37ee29774e268438d85/PopStudio.Shared/YFTYLib/Reanim/TV.cs"
+        },
+        {
+          "path": "PopStudio.Shared/YFTYLib/Reanim/WP.cs",
+          "sha256": "b88531afaaba8ef16ba13b66c7e1f833d379ee5a9f2d3885bbb74432139dc24f",
+          "url": "https://raw.githubusercontent.com/PopGameTool/PopStudio/a8bd1edd3e1dc4ec79e3b37ee29774e268438d85/PopStudio.Shared/YFTYLib/Reanim/WP.cs"
+        },
+        {
+          "path": "README.md",
+          "sha256": "99ba884a757bebcfa5baaac7308a9975a586134f5608bb877f7af39f378b7db9",
+          "url": "https://raw.githubusercontent.com/PopGameTool/PopStudio/a8bd1edd3e1dc4ec79e3b37ee29774e268438d85/README.md"
+        },
+        {
+          "path": "Tests/PopStudio.Reanim.Tests/Program.cs",
+          "sha256": "c2ec2bd3f5ee95b7837ecb93ef87768d64a6205cbb3c52a0726688da9cab2ad0",
+          "url": "https://raw.githubusercontent.com/PopGameTool/PopStudio/a8bd1edd3e1dc4ec79e3b37ee29774e268438d85/Tests/PopStudio.Reanim.Tests/Program.cs"
+        }
+      ]
+    },
+    {
+      "repository": "ec50n9/pvz2godot",
+      "commit": "ba9df9a5aaef7449dd7507d0d7d3993615fec239",
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "spdx_id": "GPL-3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0",
+        "node_id": "MDc6TGljZW5zZTk="
+      },
+      "reviewOnly": true,
+      "files": [
+        {
+          "path": "convert.py",
+          "sha256": "31e91139409011906216cbb1e05570ad40c2822161575ca459e46a4973671e58",
+          "url": "https://raw.githubusercontent.com/ec50n9/pvz2godot/ba9df9a5aaef7449dd7507d0d7d3993615fec239/convert.py"
+        },
+        {
+          "path": "convert_all.py",
+          "sha256": "f9886350b368703c745388ee67ff70286dc43deb51fff343538c803a2051761b",
+          "url": "https://raw.githubusercontent.com/ec50n9/pvz2godot/ba9df9a5aaef7449dd7507d0d7d3993615fec239/convert_all.py"
+        },
+        {
+          "path": "convert_plants.py",
+          "sha256": "eff2583ec8dffb1993345836e90c5a43563f73373e19a59a7242e2ccb7d31ab7",
+          "url": "https://raw.githubusercontent.com/ec50n9/pvz2godot/ba9df9a5aaef7449dd7507d0d7d3993615fec239/convert_plants.py"
+        },
+        {
+          "path": "font2fnt.py",
+          "sha256": "3998ff7de062fbfac6344ab41b1a5978f06296dab76166231603f80cd726efbc",
+          "url": "https://raw.githubusercontent.com/ec50n9/pvz2godot/ba9df9a5aaef7449dd7507d0d7d3993615fec239/font2fnt.py"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+          "url": "https://raw.githubusercontent.com/ec50n9/pvz2godot/ba9df9a5aaef7449dd7507d0d7d3993615fec239/LICENSE"
+        },
+        {
+          "path": "mo3towav.py",
+          "sha256": "c8ea07e3282cedfec9a6f34ac280b45644507f8b5003b11f855b71a3c51f4460",
+          "url": "https://raw.githubusercontent.com/ec50n9/pvz2godot/ba9df9a5aaef7449dd7507d0d7d3993615fec239/mo3towav.py"
+        },
+        {
+          "path": "particles2godot.py",
+          "sha256": "304c60d4e5a9e2dc8cac5646813419fa778631e66f2e6965c25c5c594a731da7",
+          "url": "https://raw.githubusercontent.com/ec50n9/pvz2godot/ba9df9a5aaef7449dd7507d0d7d3993615fec239/particles2godot.py"
+        },
+        {
+          "path": "README.md",
+          "sha256": "cfe5e49d0acd31c9939ec9a6bd7b19d17f4d021270eee65c5d1714a12131b3f6",
+          "url": "https://raw.githubusercontent.com/ec50n9/pvz2godot/ba9df9a5aaef7449dd7507d0d7d3993615fec239/README.md"
+        },
+        {
+          "path": "reanim_parse.py",
+          "sha256": "b3f70cfa810b02cda2867f785a304f9a6167bd0923414265005037db51f1d587",
+          "url": "https://raw.githubusercontent.com/ec50n9/pvz2godot/ba9df9a5aaef7449dd7507d0d7d3993615fec239/reanim_parse.py"
+        },
+        {
+          "path": "unpack_pak.py",
+          "sha256": "25f0e0b0660029cb92d890dd143e04a5fe2cc07c99fc613ac5f66ea6b5ef3d48",
+          "url": "https://raw.githubusercontent.com/ec50n9/pvz2godot/ba9df9a5aaef7449dd7507d0d7d3993615fec239/unpack_pak.py"
+        },
+        {
+          "path": "verify.py",
+          "sha256": "15189abc9f4b73c1e40022402f05a7adbc5a60ff4a7b698120a9b91e2d30c086",
+          "url": "https://raw.githubusercontent.com/ec50n9/pvz2godot/ba9df9a5aaef7449dd7507d0d7d3993615fec239/verify.py"
+        }
+      ]
+    },
+    {
+      "repository": "lmintlcx/pvztools",
+      "commit": "46512f3b2a62f8f477814326ae900c65847f5485",
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "spdx_id": "GPL-3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0",
+        "node_id": "MDc6TGljZW5zZTk="
+      },
+      "reviewOnly": true,
+      "files": [
+        {
+          "path": "LICENSE",
+          "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+          "url": "https://raw.githubusercontent.com/lmintlcx/pvztools/46512f3b2a62f8f477814326ae900c65847f5485/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "sha256": "e99b616b63075538370b393aafc8998440190fa6e1360b48d9205dcefcff5588",
+          "url": "https://raw.githubusercontent.com/lmintlcx/pvztools/46512f3b2a62f8f477814326ae900c65847f5485/README.md"
+        },
+        {
+          "path": "src/pak.cpp",
+          "sha256": "e766c17381842bd9a77bb553117fc38a22ab60f2b5529c842e25dc4af009ef7c",
+          "url": "https://raw.githubusercontent.com/lmintlcx/pvztools/46512f3b2a62f8f477814326ae900c65847f5485/src/pak.cpp"
+        }
+      ]
+    },
+    {
+      "repository": "Patoke/re-plants-vs-zombies",
+      "commit": "c4692036c5e11d227c8fb7c593b734dac96da028",
+      "license": {
+        "key": "cc0-1.0",
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://api.github.com/licenses/cc0-1.0",
+        "node_id": "MDc6TGljZW5zZTY="
+      },
+      "reviewOnly": true,
+      "files": [
+        {
+          "path": "Lawn/Board.cpp",
+          "sha256": "5048e046b9ae6da9a7566e0f5724f73c62a0fcb1b3fc22de7a47df9a71bd76f0",
+          "url": "https://raw.githubusercontent.com/Patoke/re-plants-vs-zombies/c4692036c5e11d227c8fb7c593b734dac96da028/Lawn/Board.cpp"
+        },
+        {
+          "path": "Lawn/Challenge.cpp",
+          "sha256": "913d57d49a3b26233242bcf92cf5f22adf77a7c4147406393b1af8e9e6e8bdba",
+          "url": "https://raw.githubusercontent.com/Patoke/re-plants-vs-zombies/c4692036c5e11d227c8fb7c593b734dac96da028/Lawn/Challenge.cpp"
+        },
+        {
+          "path": "Lawn/Challenge.h",
+          "sha256": "d78a619be89314e4a5fa92e0ebd4f7a0d3518ace9cae7c2308b9d39c8a664c6a",
+          "url": "https://raw.githubusercontent.com/Patoke/re-plants-vs-zombies/c4692036c5e11d227c8fb7c593b734dac96da028/Lawn/Challenge.h"
+        },
+        {
+          "path": "Lawn/LawnCommon.cpp",
+          "sha256": "c2529dc4900aea21a3d2b787af8a6b934f621f0e0567557a5095293c2bbb0228",
+          "url": "https://raw.githubusercontent.com/Patoke/re-plants-vs-zombies/c4692036c5e11d227c8fb7c593b734dac96da028/Lawn/LawnCommon.cpp"
+        },
+        {
+          "path": "Lawn/MessageWidget.cpp",
+          "sha256": "e1aabddf665874fa38bdf31eac08b75347d11d6018797579dfbc3e0904c1e5aa",
+          "url": "https://raw.githubusercontent.com/Patoke/re-plants-vs-zombies/c4692036c5e11d227c8fb7c593b734dac96da028/Lawn/MessageWidget.cpp"
+        },
+        {
+          "path": "Lawn/System/PlayerInfo.cpp",
+          "sha256": "6343037108796b21bf282b53eb0cf2891d06e202912d930b5b78cd91951ceecf",
+          "url": "https://raw.githubusercontent.com/Patoke/re-plants-vs-zombies/c4692036c5e11d227c8fb7c593b734dac96da028/Lawn/System/PlayerInfo.cpp"
+        },
+        {
+          "path": "Lawn/System/TypingCheck.cpp",
+          "sha256": "6517cdd5db838b4f76e3151e1bebbdbe4ec9e7a9f8f3fbf578a4e858c718f57d",
+          "url": "https://raw.githubusercontent.com/Patoke/re-plants-vs-zombies/c4692036c5e11d227c8fb7c593b734dac96da028/Lawn/System/TypingCheck.cpp"
+        },
+        {
+          "path": "Lawn/Widget/CheatDialog.cpp",
+          "sha256": "1d6358cd57fe083f0abe6d267de3ef409d90dfc97d28ba3698f5f8acfbe4b341",
+          "url": "https://raw.githubusercontent.com/Patoke/re-plants-vs-zombies/c4692036c5e11d227c8fb7c593b734dac96da028/Lawn/Widget/CheatDialog.cpp"
+        },
+        {
+          "path": "Lawn/Widget/StoreScreen.cpp",
+          "sha256": "7c814a9cdbafface31b7c0d1ab154b0c180f71a4a08e96416cf5e03b7bca6d16",
+          "url": "https://raw.githubusercontent.com/Patoke/re-plants-vs-zombies/c4692036c5e11d227c8fb7c593b734dac96da028/Lawn/Widget/StoreScreen.cpp"
+        },
+        {
+          "path": "Lawn/ZenGarden.cpp",
+          "sha256": "ff35cb338324e7fe804c607c52fd551b2f733f7b474289983fb12b57b6c56160",
+          "url": "https://raw.githubusercontent.com/Patoke/re-plants-vs-zombies/c4692036c5e11d227c8fb7c593b734dac96da028/Lawn/ZenGarden.cpp"
+        },
+        {
+          "path": "LawnApp.cpp",
+          "sha256": "22db2c822ed6a1eee8955de65d314eace09010f7647582d77b628444bd80bc39",
+          "url": "https://raw.githubusercontent.com/Patoke/re-plants-vs-zombies/c4692036c5e11d227c8fb7c593b734dac96da028/LawnApp.cpp"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+          "url": "https://raw.githubusercontent.com/Patoke/re-plants-vs-zombies/c4692036c5e11d227c8fb7c593b734dac96da028/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "sha256": "dc511ba9acfaf5735d5029b4c1d2f89f3c8e4d0fe427dc82e9907b1c7e0992b1",
+          "url": "https://raw.githubusercontent.com/Patoke/re-plants-vs-zombies/c4692036c5e11d227c8fb7c593b734dac96da028/README.md"
+        },
+        {
+          "path": "Resources.cpp",
+          "sha256": "b90141b1198626c4c65fb499bb287bed2e7184bf99fd18e3c8da30e88d62f003",
+          "url": "https://raw.githubusercontent.com/Patoke/re-plants-vs-zombies/c4692036c5e11d227c8fb7c593b734dac96da028/Resources.cpp"
+        },
+        {
+          "path": "Resources.h",
+          "sha256": "cadab52c8955713f958b0f5cf28de07ff6abbbc96d229e6c45e327ed9bf4be0b",
+          "url": "https://raw.githubusercontent.com/Patoke/re-plants-vs-zombies/c4692036c5e11d227c8fb7c593b734dac96da028/Resources.h"
+        },
+        {
+          "path": "Sexy.TodLib/Definition.cpp",
+          "sha256": "707af312cb931b2aa6f84d465e342ff8e0bd6640a15c582fce8f7f4bd5ad356e",
+          "url": "https://raw.githubusercontent.com/Patoke/re-plants-vs-zombies/c4692036c5e11d227c8fb7c593b734dac96da028/Sexy.TodLib/Definition.cpp"
+        },
+        {
+          "path": "Sexy.TodLib/Definition.h",
+          "sha256": "7f0b12fb97e919352ce23801fe7991ac8ba435024ef59a90f9f54eb2d2b5ee6b",
+          "url": "https://raw.githubusercontent.com/Patoke/re-plants-vs-zombies/c4692036c5e11d227c8fb7c593b734dac96da028/Sexy.TodLib/Definition.h"
+        },
+        {
+          "path": "Sexy.TodLib/Reanimator.cpp",
+          "sha256": "7e6d30c62b9edf445f5bcc5e5ae7343ffb56dd5c0fd1c0b93a7d8ec35fb4e448",
+          "url": "https://raw.githubusercontent.com/Patoke/re-plants-vs-zombies/c4692036c5e11d227c8fb7c593b734dac96da028/Sexy.TodLib/Reanimator.cpp"
+        },
+        {
+          "path": "Sexy.TodLib/Reanimator.h",
+          "sha256": "bdd3cc4f5277bc0a7b09d3340fa9061fd5610fe5c8cf203d6f976bc52104573b",
+          "url": "https://raw.githubusercontent.com/Patoke/re-plants-vs-zombies/c4692036c5e11d227c8fb7c593b734dac96da028/Sexy.TodLib/Reanimator.h"
+        },
+        {
+          "path": "Sexy.TodLib/TodCommon.cpp",
+          "sha256": "3bf9ecc940a265713f21d354ef529b019fdebe0fb1e6dcc5f253e1229e780d9f",
+          "url": "https://raw.githubusercontent.com/Patoke/re-plants-vs-zombies/c4692036c5e11d227c8fb7c593b734dac96da028/Sexy.TodLib/TodCommon.cpp"
+        },
+        {
+          "path": "Sexy.TodLib/TodStringFile.cpp",
+          "sha256": "766be977de1270003ef33bb4b7c3ed3a834601ce658154182a153e998a2a9b89",
+          "url": "https://raw.githubusercontent.com/Patoke/re-plants-vs-zombies/c4692036c5e11d227c8fb7c593b734dac96da028/Sexy.TodLib/TodStringFile.cpp"
+        },
+        {
+          "path": "SexyAppFramework/graphics/ImageFont.cpp",
+          "sha256": "d1bd0f831380e91bc03527b6b8d9dee416a4349983b8e3657d36d57872c02aa9",
+          "url": "https://raw.githubusercontent.com/Patoke/re-plants-vs-zombies/c4692036c5e11d227c8fb7c593b734dac96da028/SexyAppFramework/graphics/ImageFont.cpp"
+        },
+        {
+          "path": "SexyAppFramework/paklib/PakInterface.cpp",
+          "sha256": "7747a7dd193d6ac7688dbf22a99db42455347017dc0cde988d267c864f0176bd",
+          "url": "https://raw.githubusercontent.com/Patoke/re-plants-vs-zombies/c4692036c5e11d227c8fb7c593b734dac96da028/SexyAppFramework/paklib/PakInterface.cpp"
+        }
+      ]
+    },
+    {
+      "repository": "LambdaEd1th/reanim-codec",
+      "commit": "a293c6f06b87b57456bef8559a48d4f1038cbf98",
+      "license": {
+        "key": "agpl-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "spdx_id": "AGPL-3.0",
+        "url": "https://api.github.com/licenses/agpl-3.0",
+        "node_id": "MDc6TGljZW5zZTE="
+      },
+      "reviewOnly": true,
+      "files": [
+        {
+          "path": "Cargo.toml",
+          "sha256": "13a540dc29c09a9a445ce6e9872a67bd327e35dc23ee05e94de2023e8a647758",
+          "url": "https://raw.githubusercontent.com/LambdaEd1th/reanim-codec/a293c6f06b87b57456bef8559a48d4f1038cbf98/Cargo.toml"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "d8b25436b3ce71ddcdbe4bcebe7ba283ddfdd38c0d0ac759d7942a2235ecd46e",
+          "url": "https://raw.githubusercontent.com/LambdaEd1th/reanim-codec/a293c6f06b87b57456bef8559a48d4f1038cbf98/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "sha256": "75cf56c6e1301824e71e7bece58cef2eef02d136de5ad01aaa4d050884e464a4",
+          "url": "https://raw.githubusercontent.com/LambdaEd1th/reanim-codec/a293c6f06b87b57456bef8559a48d4f1038cbf98/README.md"
+        },
+        {
+          "path": "src/error.rs",
+          "sha256": "bb4bfff988e4f860e8e0ecd2bfe24269dbfea5c43687006e67733acccfac7252",
+          "url": "https://raw.githubusercontent.com/LambdaEd1th/reanim-codec/a293c6f06b87b57456bef8559a48d4f1038cbf98/src/error.rs"
+        },
+        {
+          "path": "src/io/mod.rs",
+          "sha256": "95c4e0ef22cb025274f7555497f9f7b308e7543ae7233653296867c81beffdc4",
+          "url": "https://raw.githubusercontent.com/LambdaEd1th/reanim-codec/a293c6f06b87b57456bef8559a48d4f1038cbf98/src/io/mod.rs"
+        },
+        {
+          "path": "src/io/reader.rs",
+          "sha256": "acd7bd455e7caf73e65c60bb27f9f8d1fb992a676d17bd812eaa43ed874d5998",
+          "url": "https://raw.githubusercontent.com/LambdaEd1th/reanim-codec/a293c6f06b87b57456bef8559a48d4f1038cbf98/src/io/reader.rs"
+        },
+        {
+          "path": "src/io/writer.rs",
+          "sha256": "70d359bdd0d345ef21f20f1e99f4297358035c16b2a5c6d49d3ba4cc8461d888",
+          "url": "https://raw.githubusercontent.com/LambdaEd1th/reanim-codec/a293c6f06b87b57456bef8559a48d4f1038cbf98/src/io/writer.rs"
+        },
+        {
+          "path": "src/lib.rs",
+          "sha256": "377f611788a1ddd36579db9f5fab08bedce509a02b37e111bafae4f8ebe4c29c",
+          "url": "https://raw.githubusercontent.com/LambdaEd1th/reanim-codec/a293c6f06b87b57456bef8559a48d4f1038cbf98/src/lib.rs"
+        },
+        {
+          "path": "src/types.rs",
+          "sha256": "781d8581e51cab865468ab7ffbd6d2dfa58713480f73377aa0488144a4a36cde",
+          "url": "https://raw.githubusercontent.com/LambdaEd1th/reanim-codec/a293c6f06b87b57456bef8559a48d4f1038cbf98/src/types.rs"
+        },
+        {
+          "path": "src/xfl/decoder.rs",
+          "sha256": "27f3ee2dc905e91fcfc51094d56bdd333c602d2e8d724c67831e88002f042067",
+          "url": "https://raw.githubusercontent.com/LambdaEd1th/reanim-codec/a293c6f06b87b57456bef8559a48d4f1038cbf98/src/xfl/decoder.rs"
+        },
+        {
+          "path": "src/xfl/encoder.rs",
+          "sha256": "f9dbf68d8f5f0049d8816041fed6dd9b4a1686ce7c2dfd5633583f0c90eaeeed",
+          "url": "https://raw.githubusercontent.com/LambdaEd1th/reanim-codec/a293c6f06b87b57456bef8559a48d4f1038cbf98/src/xfl/encoder.rs"
+        },
+        {
+          "path": "src/xfl/mod.rs",
+          "sha256": "e1a7ece8ca091efea1bea18a280cde144633d6b83bc11db80c17e040d06b2a15",
+          "url": "https://raw.githubusercontent.com/LambdaEd1th/reanim-codec/a293c6f06b87b57456bef8559a48d4f1038cbf98/src/xfl/mod.rs"
+        },
+        {
+          "path": "src/xfl/xml_writer.rs",
+          "sha256": "950565861dcc8f76a2c352cf73aae2263c8e5467240af5a08df1062f465381bb",
+          "url": "https://raw.githubusercontent.com/LambdaEd1th/reanim-codec/a293c6f06b87b57456bef8559a48d4f1038cbf98/src/xfl/xml_writer.rs"
+        },
+        {
+          "path": "tests/compatibility.rs",
+          "sha256": "6c483d0e545949dc2aee6d4d0cc81e299f1433bbdc1ba925896b704c6559f331",
+          "url": "https://raw.githubusercontent.com/LambdaEd1th/reanim-codec/a293c6f06b87b57456bef8559a48d4f1038cbf98/tests/compatibility.rs"
+        }
+      ]
+    },
+    {
+      "repository": "InLiothixi/stabledecompile",
+      "commit": "6d24a221ad641dd9ae8ee8ddd635acd445eadd6f",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "reviewOnly": true,
+      "files": [
+        {
+          "path": "Lawn/Board.cpp",
+          "sha256": "6c29188a1cd98a6d7e99744dc654ef3868a3c99bdeff7923848ea237f4d9d39d",
+          "url": "https://raw.githubusercontent.com/InLiothixi/stabledecompile/6d24a221ad641dd9ae8ee8ddd635acd445eadd6f/Lawn/Board.cpp"
+        },
+        {
+          "path": "Lawn/Challenge.cpp",
+          "sha256": "c05037f593c2ac03354d086e081ba2415a756ba93f69b5e1bff7ad0ba1d4bb15",
+          "url": "https://raw.githubusercontent.com/InLiothixi/stabledecompile/6d24a221ad641dd9ae8ee8ddd635acd445eadd6f/Lawn/Challenge.cpp"
+        },
+        {
+          "path": "Lawn/Widget/StoreScreen.cpp",
+          "sha256": "ce6abe34a06bde08e660eb565419444f6bd41ccfd1638dbe4c3d07d794dc4e5a",
+          "url": "https://raw.githubusercontent.com/InLiothixi/stabledecompile/6d24a221ad641dd9ae8ee8ddd635acd445eadd6f/Lawn/Widget/StoreScreen.cpp"
+        },
+        {
+          "path": "LICENSE.txt",
+          "sha256": "002c2696d92b5c8cf956c11072baa58eaf9f6ade995c031ea635c6a1ee342ad1",
+          "url": "https://raw.githubusercontent.com/InLiothixi/stabledecompile/6d24a221ad641dd9ae8ee8ddd635acd445eadd6f/LICENSE.txt"
+        },
+        {
+          "path": "README.md",
+          "sha256": "a7c49bf880736a1308d0e5be97f26a315e23e55c1bfe35bc0fd23c57d3b160b5",
+          "url": "https://raw.githubusercontent.com/InLiothixi/stabledecompile/6d24a221ad641dd9ae8ee8ddd635acd445eadd6f/README.md"
+        },
+        {
+          "path": "Sexy.TodLib/Reanimator.cpp",
+          "sha256": "b09798f8bf42affc5719b6092338ee1ba4ed23c63de2cbb0be8880740208dd89",
+          "url": "https://raw.githubusercontent.com/InLiothixi/stabledecompile/6d24a221ad641dd9ae8ee8ddd635acd445eadd6f/Sexy.TodLib/Reanimator.cpp"
+        },
+        {
+          "path": "Sexy.TodLib/TodFoley.cpp",
+          "sha256": "c523a7be178f5aa868ecffb63e90b4983c080ce5e731f29cf60302daded8d70d",
+          "url": "https://raw.githubusercontent.com/InLiothixi/stabledecompile/6d24a221ad641dd9ae8ee8ddd635acd445eadd6f/Sexy.TodLib/TodFoley.cpp"
+        }
+      ]
+    }
+  ],
+  "unavailable": [
+    {
+      "repository": "luxezreal/pvz-modding",
+      "status": "API and raw returned HTTP 404; search index claims only; no source or license text acquired"
+    }
+  ]
+}

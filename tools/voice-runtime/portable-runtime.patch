@@ -1,0 +1,59 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 0f4de7d..d642085 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -9,7 +9,7 @@ set(CMAKE_POSITION_INDEPENDENT_CODE ON)
+ # Compiler flags
+ if(CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang")
+     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra -Wpedantic")
+-    set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -O3 -march=native")
++    set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -O3 -march=x86-64")
+     set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -g -O0")
+ endif()
+ 
+@@ -220,6 +220,11 @@ endif()
+ add_executable(qwen3-tts-cli
+     src/main.cpp
+ )
++if(WIN32)
++    enable_language(RC)
++    target_sources(qwen3-tts-cli PRIVATE windows-utf8.rc)
++    target_include_directories(qwen3-tts-cli PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})
++endif()
+ target_link_libraries(qwen3-tts-cli PRIVATE
+     qwen3_tts
+ )
+diff --git a/build.ps1 b/build.ps1
+index dfb3c37..5d9e3fb 100644
+--- a/build.ps1
++++ b/build.ps1
+@@ -1,5 +1,7 @@
+ [CmdletBinding()]
+ param (
++    [switch]$PortableClang,
++    [switch]$PortableAvx2,
+     [switch]$Clean,
+     [switch]$UseNinja,
+     [switch]$EnableCuda,
+@@ -91,7 +93,7 @@ if (-not (Test-Path (Join-Path $resolvedGGMLDir "CMakeLists.txt"))) {
+     throw "GGML directory is missing or invalid: $resolvedGGMLDir"
+ }
+ 
+-Import-VSEnv
++if (-not $PortableClang) { Import-VSEnv }
+ 
+ if ($Clean -and (Test-Path $resolvedBuildDir)) {
+     Write-Host "Cleaning build directory: $resolvedBuildDir"
+@@ -140,6 +142,12 @@ $configureArgs = @(
+     "-DGGML_CUDA_GRAPHS=$cudaGraphsFlag",
+     "-DQWEN3_TTS_TIMING=$timingFlag"
+ )
++if ($PortableClang) {
++    $configureArgs += @('-DCMAKE_C_COMPILER=x86_64-w64-mingw32-clang', '-DCMAKE_CXX_COMPILER=x86_64-w64-mingw32-clang++', '-DCMAKE_SYSTEM_NAME=Windows', '-DCMAKE_RC_COMPILER=x86_64-w64-mingw32-windres', '-DGGML_NATIVE=OFF', '-DGGML_AVX=OFF', '-DGGML_AVX2=OFF', '-DGGML_SSE42=OFF', '-DGGML_FMA=OFF', '-DGGML_F16C=OFF', '-DGGML_OPENMP=OFF', '-DBUILD_SHARED_LIBS=OFF')
++}
++if ($PortableAvx2) {
++    $configureArgs += @('-DCMAKE_SYSTEM_PROCESSOR=AMD64', '-DGGML_AVX=ON', '-DGGML_AVX2=ON', '-DGGML_SSE42=ON', '-DGGML_FMA=ON', '-DGGML_F16C=ON')
++}
+ 
+ if ($isNinja) {
+     $configureArgs += "-DCMAKE_BUILD_TYPE=$Configuration"

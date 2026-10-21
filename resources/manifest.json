@@ -1,0 +1,26 @@
+{
+  "files": [
+    {
+      "bytes": 45453180,
+      "sha256": "5878326408285cb01f83b4fa4edcc66d65e727f6d6ee88563b5b3b287dd259fc",
+      "path": "resources/goty/main.pak"
+    },
+    {
+      "bytes": 347824,
+      "sha256": "2592b8fc84524f805b934391580823285aa19491a1f88f96a113ff3be2a67875",
+      "path": "resources/goty/zh.json"
+    },
+    {
+      "bytes": 51301,
+      "sha256": "4fe99ba68d90ed643154c4835cd1606bf142de202baf7f732473b40c2c06c289",
+      "path": "resources/branding/tree.ico"
+    },
+    {
+      "bytes": 29139,
+      "sha256": "cb5d8bdccf429a50382080d05c3ec35cf4b1aafaa7b4b5a630bcb0a894ed8943",
+      "path": "resources/branding/tree.png"
+    }
+  ],
+  "license": "Excluded from MIT; original game material belongs to its respective rights holders.",
+  "origin": "Owner-provided Steam PC GOTY package and locally prepared UI resources"
+}

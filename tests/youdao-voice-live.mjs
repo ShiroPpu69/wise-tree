@@ -1,0 +1,6 @@
+import {createRequire} from 'node:module';import fs from 'node:fs/promises';import assert from 'node:assert/strict';
+const require=createRequire(import.meta.url),{onlineSpeech,validateWave}=require('../apps/desktop/online-voice.cjs'),out='private/reports/youdao-voice';await fs.mkdir(out,{recursive:true});const results=[];
+for(const [stage,language,text] of [['child','zh','你好，我是智慧树。今天也要长高一点。'],['young','zh','别看我站着不动，我可一直在长见识。'],['mature','zh','智慧需要时间，树肥倒是不嫌多。'],['young','en','Hello. I am the Tree of Wisdom.']]){
+ const at=Date.now(),result=await onlineSpeech(text,stage,language,1,new AbortController().signal);const bytes=Buffer.from(result.bytes);validateWave(bytes);assert.ok(bytes.length>1000);assert.equal(result.mime,'audio/wav');assert.equal(result.remote,true);await fs.writeFile(out+'/'+stage+'-'+language+'.wav',bytes);results.push({stage,language,ms:Date.now()-at,bytes:bytes.length,voice:result.voice});
+}
+await fs.writeFile(out+'/live.json',JSON.stringify({scope:'Real NetEase Youdao public Confucius4 demo. Synthetic references and public test text only. No user keys/chat/microphone. Timings are complete clips on this network, not an availability guarantee.',results},null,2));console.log('YOUDAO_LIVE_READY',results);

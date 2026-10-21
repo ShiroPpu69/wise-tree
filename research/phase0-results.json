@@ -1,0 +1,54 @@
+{
+  "scope": "SYNTHETIC ONLY; transparent 1px fixture; no Godot renderer or GOTY test",
+  "reference_commit": "ba9df9a5aaef7449dd7507d0d7d3993615fec239",
+  "source_hashes": {
+    "reanim_parse.py": "b3f70cfa810b02cda2867f785a304f9a6167bd0923414265005037db51f1d587",
+    "convert.py": "31e91139409011906216cbb1e05570ad40c2822161575ca459e46a4973671e58",
+    "verify.py": "15189abc9f4b73c1e40022402f05a7adbc5a60ff4a7b698120a9b91e2d30c086"
+  },
+  "parse": {
+    "fps": 12.0,
+    "tracks": 1
+  },
+  "upstream_verifier_errors": [],
+  "own_metadata": {
+    "format": "PC compiled Reanim candidate",
+    "goty_verified": false,
+    "sha256": "a1c95bababcb0b8d820122b8e76d67e93c7f7d487ec79a6378133b3ccdc7c6ee",
+    "prefix_hex": "0000000000000000",
+    "fps": 12.0,
+    "track_count": 1,
+    "tracks": [
+      {
+        "name": "anim_grow_synthetic",
+        "frame_count": 3,
+        "images": [
+          "SYNTHETIC_IMAGE"
+        ],
+        "fonts": [
+          "SYNTHETIC_FONT"
+        ],
+        "text_frames": [
+          0
+        ],
+        "first_visible": 0,
+        "last_visible": 1
+      }
+    ]
+  },
+  "upstream_track_preserves_font": false,
+  "upstream_track_preserves_text": false,
+  "environment": {
+    "os": "Windows 11 Pro 10.0.26100",
+    "python": "3.12.2",
+    "node": "v24.14.1"
+  },
+  "date": "2026-10-20",
+  "unitTests": {
+    "command": "python -m unittest discover -s tools -p 'test_*.py' -v",
+    "passed": 10,
+    "failed": 0,
+    "fixtureScope": "synthetic only"
+  },
+  "gotyValidation": "NOT RUN: no user-owned assets/executable/captures"
+}
