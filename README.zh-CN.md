@@ -12,6 +12,7 @@
 ![Windows](https://img.shields.io/badge/Windows-x64-5076a0)
 ![Code license](https://img.shields.io/badge/code-MIT-e0c46b)
 ![Stack](https://img.shields.io/badge/TypeScript-React_%2B_PixiJS_%2B_Electron-716184)
+[![源码检查](https://github.com/ShiroPpu69/wise-tree/actions/workflows/check.yml/badge.svg)](https://github.com/ShiroPpu69/wise-tree/actions/workflows/check.yml)
 
 ![真实桌面程序：施肥成长与逐字回复](docs/media/demo-zh.gif)
 

@@ -13,6 +13,7 @@ A playable PvZ GOTY Tree of Wisdom with AI conversation, manual growth, and a ti
 ![Windows](https://img.shields.io/badge/Windows-x64-5076a0)
 ![Code license](https://img.shields.io/badge/code-MIT-e0c46b)
 ![Stack](https://img.shields.io/badge/TypeScript-React_%2B_PixiJS_%2B_Electron-716184)
+[![Source checks](https://github.com/ShiroPpu69/wise-tree/actions/workflows/check.yml/badge.svg)](https://github.com/ShiroPpu69/wise-tree/actions/workflows/check.yml)
 
 ![Real desktop demo: feed the tree, then talk to it](docs/media/demo-en.gif)
 

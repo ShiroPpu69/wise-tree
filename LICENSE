@@ -20,8 +20,3 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Scope: this license applies to the project's original application code and
-documentation. It does not license Plants vs. Zombies game assets, game
-dialogue, derived game icons, screenshots/GIFs containing game artwork,
-third-party fonts, dependencies, or third-party research sources. See
-resources/README.md, docs/media/README.md, and THIRD_PARTY_NOTICES.txt.
