@@ -2,9 +2,13 @@
 
 # 智慧树 · Tree of Wisdom
 
+**植物大战僵尸：年度版 · Plants vs. Zombies: Game of the Year Edition**
+
 ### 小时候给它施肥，现在听它聊聊世界。
 
 把《植物大战僵尸》GOTY 的智慧树搬到桌面：聊聊天、攒金币、去戴夫商店买肥料，再亲手把它养大。
+
+Bring the Plants vs. Zombies GOTY Tree of Wisdom to your desktop: AI conversation, manual feeding, coins and Crazy Dave's shop.
 
 [**下载 Windows 安装包**](https://github.com/ShiroPpu69/wise-tree/releases/latest) · [**English**](README.md) · [**源码运行**](#源码运行) · [**当前进度**](#当前进度)
 

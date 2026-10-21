@@ -2,10 +2,14 @@
 
 # Tree of Wisdom · 智慧树
 
+**Plants vs. Zombies: Game of the Year Edition · 植物大战僵尸：年度版**
+
 ### Your childhood tree has something new to say.
 ### 小时候给它施肥，现在听它聊聊世界。
 
-A playable PvZ GOTY Tree of Wisdom with AI conversation, manual growth, and a tiny economy that turns model usage into tree food.
+A playable Plants vs. Zombies GOTY Tree of Wisdom with AI conversation, manual growth, and a tiny economy that turns model usage into tree food.
+
+把《植物大战僵尸》年度版的智慧树搬到桌面：AI 对话、手动施肥、金币商店，让它陪你聊天，也陪你慢慢长大。
 
 [**Download for Windows**](https://github.com/ShiroPpu69/wise-tree/releases/latest) · [**中文介绍**](README.zh-CN.md) · [**Quick start**](#run-from-source) · [**Roadmap**](#where-it-stands)
 
